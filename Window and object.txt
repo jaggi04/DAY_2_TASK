@@ -1,0 +1,23 @@
+Blog about difference between object window and document
+
+In web development, the window and document objects are two of the most commonly used objects that provide access to the browser's JavaScript environment and the contents of a web page. Understanding the difference between these two objects is crucial for any web developer, as they have different properties and methods that can be used to manipulate and interact with the browser and the page.
+
+The window object represents the browser's window, and is the parent object of all other objects in the browser's JavaScript environment. It provides access to a wide range of properties and methods that can be used to interact with the browser, such as the current URL, the history object, and the browser's navigational buttons. The window object also provide methods to create and manipulate new windows, alerts and prompts.
+
+One of the most commonly used properties of the window object is location, which provides information about the current URL, such as the protocol, hostname, and path. The history object, which is a property of the window object, can be used to manipulate the browser's history, such as going forward and backward through the pages that have been visited.
+
+Another important property of the window object is the document object, which represents the current web page that is loaded in the browser. The document object provides access to the contents of the page, such as the HTML, CSS, and JavaScript, and allows you to manipulate the elements on the page.
+
+One of the most commonly used properties of the document object is title, which allows you to get or set the title of the page. The document object also provides a number of methods that can be used to interact with the page's elements, such as getElementById(), getElementsByTagName(), and querySelector(). These methods can be used to access specific elements on the page, and manipulate their properties and styles.
+
+Another property available with the document object is forms, which represents the collection of forms on the page, and images, which represents the collection of images on the page. The document object also provides the createElement() method which can be used to create new elements and add them to the page.
+
+The document object is also the parent object of the HTML objects, such as HTMLInputElement, HTMLButtonElement, HTMLElement, etc. These objects can be used to interact with the HTML elements specifically and give more flexibility and control over the elements.
+
+In summary, while the window object provides access to the browser's JavaScript environment and the browser's navigation, the document object provides access to the contents of the current web page and the elements that are contained within it. Knowing how to use these two objects and the properties and methods that they provide is essential for any web developer who wants to create dynamic and interactive web pages.
+
+It's important to note that any browser has a single global window object and one per tab , with its child document object. This means that any global variable or function that is defined in the JavaScript code is actually a property of the window object and can be accessed using the window object, for example window.someVariable or window.someFunction() .
+
+In conclusion, understanding the difference between the window and document objects and the properties and methods that they provide is an essential part of web development. These two objects allow you to interact with the browser and the page, and provide the foundation for creating dynamic and interactive web pages.
+
+
